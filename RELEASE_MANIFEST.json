@@ -1,0 +1,132 @@
+{
+  "purpose": "Proposed sanitized public source review; no publication performed",
+  "license": "Pending owner decision; no LICENSE distributed",
+  "hash_policy": "SHA-256 for every listed file except this self-describing manifest",
+  "files": [
+    {
+      "path": ".gitignore",
+      "security_decision": "APPROVE",
+      "sha256": "1126d19d441f522314be0ee860bc06d153efd321d6f4aa2146b8f6be9ed8724e"
+    },
+    {
+      "path": "Config/Modelfile",
+      "security_decision": "APPROVE",
+      "sha256": "9d19bd9fc854b1a5bcfdcee5cfd2ccc725ed9decb58f0ab8c125707c5ded8bfe"
+    },
+    {
+      "path": "Config/config.example.json",
+      "security_decision": "APPROVE",
+      "sha256": "64d1a32f1cfc4c16d5dbcaae3324d1f0797f4cb1ef4720bbfd4a368e02819eb2"
+    },
+    {
+      "path": "README.md",
+      "security_decision": "APPROVE",
+      "sha256": "4aa0857da9c4ea8531e91b78c45e8bb4fd8c55a430d9db50c692e5bfc2d6ba6b"
+    },
+    {
+      "path": "RELEASE_MANIFEST.json",
+      "security_decision": "APPROVE",
+      "sha256": null
+    },
+    {
+      "path": "RELEASE_REVIEW.md",
+      "security_decision": "APPROVE",
+      "sha256": "b1ff2fb2430e8ce9d7f7690f4dfd08d55b8ec08a6c4aac442886bddb68658c05"
+    },
+    {
+      "path": "requirements-voice.txt",
+      "security_decision": "APPROVE",
+      "sha256": "91b095d95d8436d5ad4a366b0dcb4ff48cb619e2f3f4fa119eff776e7aa7ff44"
+    },
+    {
+      "path": "requirements.txt",
+      "security_decision": "APPROVE",
+      "sha256": "c3ed54d0a0666cadb9159478ab9fdeb0250533103f5be350702d9086b83f2f88"
+    },
+    {
+      "path": "seraphix_app.py",
+      "security_decision": "APPROVE",
+      "sha256": "529c792e8c30f25405773a72938c34200d89ff16f3c6cb3c2041367a216128cf"
+    },
+    {
+      "path": "seraphix_book_guard_v284.py",
+      "security_decision": "APPROVE",
+      "sha256": "9fcff80fac6625e68aace636deb8bcab9159ecdd50f6a1b88723860ccc09f795"
+    },
+    {
+      "path": "seraphix_book_qa.py",
+      "security_decision": "APPROVE",
+      "sha256": "41f30b0a0987dd5aa9e62e263412684b8cd2382ae1f0b137c5131b4226af231a"
+    },
+    {
+      "path": "seraphix_book_reader.py",
+      "security_decision": "APPROVE",
+      "sha256": "94c7addebd077322f6fe3e74c35b2182511d05e634b0c1f7de1c2a25c633b16d"
+    },
+    {
+      "path": "seraphix_canon_intelligence.py",
+      "security_decision": "APPROVE",
+      "sha256": "413e07938eb345b1e5b9e8e91acbaf1b81ee269e14ab73af751824cbecebed52"
+    },
+    {
+      "path": "seraphix_config.py",
+      "security_decision": "APPROVE",
+      "sha256": "eb0ebc2b47dc8dd76e6cc9df29d91fbd82e4234af4d2054392107b522cb6f7ec"
+    },
+    {
+      "path": "seraphix_evidence_anchor.py",
+      "security_decision": "APPROVE",
+      "sha256": "454c907f5533b29e84b2a6983be923fa79c2ebe9fccce31e5530861e2a7034c2"
+    },
+    {
+      "path": "seraphix_kokoro_voice.py",
+      "security_decision": "APPROVE",
+      "sha256": "ebf2afed32ad04f9c72e280384dd0bb5f5f1e130cf847b9eb2580650a3366a6b"
+    },
+    {
+      "path": "seraphix_manuscript_library.py",
+      "security_decision": "APPROVE",
+      "sha256": "3c477485577d63f7543ff5da432f02c16774efa065679e38f68fa1291d0cf17c"
+    },
+    {
+      "path": "seraphix_narrative_engine.py",
+      "security_decision": "APPROVE",
+      "sha256": "780d2832fc2b0d7a27bb899de357d25a54e8f6a4afcc88fe15fad5a6d8045c85"
+    },
+    {
+      "path": "seraphix_scene_answer.py",
+      "security_decision": "APPROVE",
+      "sha256": "cc2fdba559bf9bb15a70155be3c34b7a28893b6bc1dccba51b9919b54f7ec81d"
+    },
+    {
+      "path": "seraphix_tools_v28.py",
+      "security_decision": "APPROVE",
+      "sha256": "55343a6ee357259684fde605b549f75afb5f74c9a5c1e965fcca820b154ea42a"
+    },
+    {
+      "path": "seraphix_tools_v281.py",
+      "security_decision": "APPROVE",
+      "sha256": "314a0e143279d097b1c4a4327dbee67c4dd71868315917aacce90e9354087fad"
+    },
+    {
+      "path": "test_kokoro_voices.py",
+      "security_decision": "APPROVE",
+      "sha256": "6a7ac3e47e033ed4b257c3ab74e3b3fcba2c5be7fdc31389c33e1f4eb9184429"
+    },
+    {
+      "path": "test_release_sanitization.py",
+      "security_decision": "APPROVE",
+      "sha256": "03e8bd16144db4877e583fb93029e51e2d58175dcc170dc27251cde366255efd"
+    },
+    {
+      "path": "test_seraphix_retrieval.py",
+      "security_decision": "APPROVE",
+      "sha256": "a8ff198a45ad7f2a532673d5496c28e4ce251a2948ab0722a2b7eecef3d94d0f"
+    },
+    {
+      "path": "test_seraphix_scene_answer.py",
+      "security_decision": "APPROVE",
+      "sha256": "fea0833a9fffd389eca1f60b08e883576666b5c243f49fa40d0966508f10fb64"
+    }
+  ]
+}

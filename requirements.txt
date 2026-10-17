@@ -1,0 +1,10 @@
+# Direct GUI/import dependencies. Versions are intentionally unpinned: no environment lock was verified.
+customtkinter
+ollama
+Pillow
+python-docx
+# Optional PDF import feature; listed so the full source feature set can be installed.
+PyMuPDF
+# Optional Windows speech fallback:
+pyttsx3; sys_platform == "win32"
+pywin32; sys_platform == "win32"

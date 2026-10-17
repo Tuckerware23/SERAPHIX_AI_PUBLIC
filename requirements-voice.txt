@@ -1,0 +1,6 @@
+# Optional separate Kokoro environment. No weights or generated audio are distributed.
+kokoro
+numpy
+sounddevice
+# Manual voice-sample demo only:
+soundfile
